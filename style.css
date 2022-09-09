@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Poppins;
+    src: url("assets/poppins.ttf");
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url("assets/quicksand.ttf");
+}
+
+html, body {
+    font-family: Poppins, sans-serif;
+    height: 100%;
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+.splash {
+    height: 100%;
+    position: relative;
+    background-image: url("assets/splash.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed
+}
+
+.splash .container .splash-text {
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+nav {
+    box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.5);
+}
+
+.section {
+    padding-top: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+p, ul {
+    font-size: 15pt;
+}
+
+.sponsor-img {
+    object-fit:scale-down;
+    aspect-ratio: 2/1;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.nav-item {
+    transition: 0.2s background-color;
+    border-radius: 10px;
+}
+
+.nav-item:hover {
+    background-color: rgb(210, 210, 210);
+}
