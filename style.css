@@ -95,3 +95,9 @@ iframe {
     border: 2px solid rgb(21, 64, 121);
     margin-bottom: 40px;
 }
+
+.social img {
+    width: 50px;
+    margin-right: 30px;
+    cursor: pointer;
+}
