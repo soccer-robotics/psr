@@ -101,3 +101,9 @@ iframe {
     margin-right: 30px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 800px) {
+    #psr_title2 {
+        display:none;
+    }
+}
