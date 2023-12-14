@@ -1,6 +1,6 @@
 @font-face {
     font-family: Poppins;
-    src: url("assets/poppins.ttf");
+    src: url("assets/Poppins.ttf");
 }
 
 @font-face {
@@ -8,8 +8,13 @@
     src: url("assets/quicksand.ttf");
 }
 
+@font-face {
+    font-family: Inter;
+    src: url("assets/inter.ttf");
+}
+
 html, body {
-    font-family: Poppins, sans-serif;
+    font-family: Inter, sans-serif;
     height: 100%;
     scroll-behavior: smooth;
     position: relative;
@@ -55,8 +60,8 @@ p, ul {
 }
 
 .card {
-    margin-bottom: 30px;
     cursor: pointer;
+    height: 100%;
 }
 
 .nav-item {
@@ -69,9 +74,9 @@ p, ul {
 }
 
 .round {
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 0px 0px 30px rgb(188, 188, 188);
-    border: 2px solid rgb(21, 64, 121);
+    border: 1px solid rgb(21, 64, 121);
 }
 
 .mini-header {
@@ -88,13 +93,15 @@ p, ul {
 }
 
 .card {
-    border: 2px solid rgb(21, 64, 121);
+    border: 1px solid rgb(21, 64, 121);
+    box-shadow: 0px 0px 30px rgb(237, 237, 237);
 }
 
 iframe {
-    border-radius: 20px;
-    border: 2px solid rgb(21, 64, 121);
+    border-radius: 10px;
+    border: 1px solid rgb(21, 64, 121);
     margin-bottom: 40px;
+    box-shadow: 0px 0px 30px rgb(222, 222, 222);
 }
 
 .social img {
