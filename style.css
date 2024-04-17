@@ -57,6 +57,7 @@ p, ul {
 .sponsor-img {
     object-fit:scale-down;
     aspect-ratio: 2/1;
+    padding: 10px;
 }
 
 .card {
